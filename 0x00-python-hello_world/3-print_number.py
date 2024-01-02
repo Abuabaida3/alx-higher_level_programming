@@ -1,3 +1,3 @@
 #!/usr/python3
 number = 98
-print("{:d}battery street".format(number))
+print("{:d} battery street".format(number))
