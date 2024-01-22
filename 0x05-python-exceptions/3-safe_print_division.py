@@ -10,4 +10,4 @@ def safe_print_division(a, b):
         div = none
     finally:
         print("Inside result: {}".format(div))
-        return (div)
+    return (div)
