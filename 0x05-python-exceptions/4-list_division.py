@@ -9,6 +9,8 @@ def list_division(my_list_1, my_list_2, list_length):
     my_list_1 (list): the first list.
     my_list_2 (list): the second list.
     list_length (int): the number of elements to division.
+    Return:
+    A new list of length list_length containing all the divisions.
     """
     new_list = []
     for i in rang(0, list_lenth):
