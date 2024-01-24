@@ -2,6 +2,6 @@
 """Square module."""
 
 
-class squre:
+class Square:
     """Defines a squre."""
     pass
