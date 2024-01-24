@@ -1,9 +1,7 @@
 #!/usr/bin/python3
-# 0-squre.py
-
-"""Define a class squre."""
+"""Square module."""
 
 
 class squre:
-    """Represent a squre."""
+    """Defines a squre."""
     pass
