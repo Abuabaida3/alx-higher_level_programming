@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 1-ectangle.py
-"""Define a Rectangle class."""
+"""Defines a Rectangle class."""
 
 
 class Rectangle:
@@ -9,7 +9,7 @@ class Rectangle:
     def __init__(self, width=0, height=0):
         """Initialize a new Rectangle.
 
-    Args:s
+    Args:
       width (int): The width of the new rectangle.
       heigh (int): The heigh of the new rectangle.
       """
@@ -23,6 +23,7 @@ class Rectangle:
 
       @width.setter
       def with(self,value):
+          if not isinstance(value, int):
           raise TypeError("width must be an integer")
       if value < 0:
           raise ValueError("width must be >= 0")
