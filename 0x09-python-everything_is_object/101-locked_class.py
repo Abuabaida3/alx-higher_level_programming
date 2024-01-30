@@ -3,9 +3,10 @@
 """Dfine a locked class."""
 
 
-class lockedClass:
+class LockedClass:
     """
     prevent the user from instantiating new lockedClass attributes
     for anything but attributes called 'first_name'.
     """
+
     __slots__ = ["first_name"]
