@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-contains the class myInt
+Contains the class myInt
 """
 
 
@@ -11,8 +11,8 @@ class MyInt(int):
         return super(MyInt, cls).__new__(cls, *args, **kwargs)
 
     def __eq__(self, other):
-        """what was != now =="""
-        return int(selfe) != other
+        """what was != is now =="""
+        return int(self) != other
 
     def __ne__(self, other):
         """what was == is now !="""
