@@ -8,13 +8,13 @@ def append_after(filename="", search_string="", new_string=""):
     Args:
        filename (str): The name of the file.
        seach_string (str): The string to seach for within the file.
-       new_string to insert.
+       new_string (str): The string to insert.
        """
        text = ""
        with open(filename) as r:
            for line in r:
                text += line
-               if seach_string in line:
+               if seacrh_string in line:
                    text += new_string 
                    wiht open(filename, "w") as w:
                        w.write(text)
