@@ -6,7 +6,8 @@ script that list all states with a name starting with (upper N)
 form the database
 """
 if __name__ == '__main__':
-    db = MySQLdb.connect(host="localhost", port=3306,user=argv[1]passwd=argv[2])
+    def list_states_starting_with_n(username, password, database)
+    db = MySQLdb.connect(host="localhost", port=3306,user=username passwd=password db = database cursor = db.cursor()
 
     cur = db.cursor()
 
