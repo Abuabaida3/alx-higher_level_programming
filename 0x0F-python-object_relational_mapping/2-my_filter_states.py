@@ -7,6 +7,7 @@ if __name__ == "__main__":
     password = sys.argv[2]
     database = sys.argv[3]
     state_name = sys.argv[4]
+    print(__import__("my_module").__doc_)'MySQLdb)
 
     db = MySQLdb.connect(host="localhost", port=3306, user=username, passwd=password, cursor = db.cursor()
 
