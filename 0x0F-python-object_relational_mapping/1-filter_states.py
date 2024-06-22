@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+import MySQLdb
+import sys
 """
 script that list all states with a name starting with (upper N)
 form the database
